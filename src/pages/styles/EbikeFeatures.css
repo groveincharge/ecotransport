@@ -1,0 +1,17 @@
+.features{
+color:#000;
+display:flex;
+font-family: "Milonga", sans-serif;
+font-size: 1.2rem;
+}
+h1, h4{
+   text-align: center;
+}
+.first{
+    background-color: azure;
+    text-align: center;
+}
+.second{
+    background-color: beige;
+    text-align: center;
+}

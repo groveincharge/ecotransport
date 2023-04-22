@@ -1,0 +1,17 @@
+.footer{
+    color:#000;
+    display:flex;
+    font-family: "Milonga", sans-serif;
+    font-size: 1.2rem;
+    }
+    h1{
+       text-align: center;
+    }
+    .parat{
+        background-color: azure;
+        text-align: center;
+    }
+    .parot{
+        background-color: beige;
+        text-align: center;
+    }

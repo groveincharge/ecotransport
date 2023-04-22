@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import EbikePage from "./pages/EbikePage";
+import EbikeFooter from "./pages/EbikeFooter";
+import EbikeFeatures from "./pages/EbikeFeatures";
+import Navbar from "./pages/Navbar";
+import Home from "./pages/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Navbar/>
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/maintenance" element={<EbikePage/>}/>
+      <Route path="/features" element={<EbikeFeatures/>}/>
+       </Routes>
+       <EbikeFooter/>
+      </BrowserRouter>
     </div>
   );
 }

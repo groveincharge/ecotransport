@@ -1,0 +1,13 @@
+a:hover {
+	background-color: #4666c5;
+    border-radius: 2px;
+}
+
+.active{
+   background-color:hsl(253, 91%, 46%);
+   border-radius: 2px;
+}
+.mylogo {
+    display: block;
+    justify-content: space-between;
+}
