@@ -1,10 +1,9 @@
-a:hover {
-	background-color: #4666c5;
+.nav-link:hover {
     border-radius: 2px;
 }
 
 .active{
-   background-color:hsl(253, 91%, 46%);
+   background-color: orange;
    border-radius: 2px;
 }
 .mylogo {

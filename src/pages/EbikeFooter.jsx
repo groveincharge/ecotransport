@@ -11,7 +11,7 @@ function EbikeFooter() {
       <div className="card-body">
       <h4 className="card-title">Shipping Information</h4>
       <p className="card-text">People interested in this Ebike can click the link. The link
-      will take you to the Ebike website. The Ecotric company handles all <big>financial</big> and <big>Shipping</big>
+      will take you to the Ebike website. The Ecotric company handles all <big>financial</big> and <big>Shipping </big>
       procedures. This is my pick for a <big>reliable</big> and <big>affordable</big> Ebike. I hope this Information
       was helpful to you. 
       </p>

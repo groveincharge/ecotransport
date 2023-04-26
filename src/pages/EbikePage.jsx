@@ -9,8 +9,8 @@ function EbikePage() {
     <section className="card col-md-6 first" style={{width:"400px"}}>
       <div className="card-body">
       <h4 className="card-title">Brakes</h4>
-      <p className="card-text">The <big>20Cheetah</big> features <big>160mm disc brakes</big> front and rear.
-        <big>Mechanical Disc Brakes</big> with matching pads for fast and <big>reliable braking</big>. Line pull
+      <p className="card-text">The <big>20Cheetah</big> features <big>160mm</big> disc brakes front and rear.
+        <big> Mechanical</big> Disc Brakes with matching pads for fast and <big>reliable braking</big>. Line pull
         adjustable levers for finger comfort. The brake system is <big>standardized</big>, and <big>replacement 
         pads</big> are easy to find.
         </p>

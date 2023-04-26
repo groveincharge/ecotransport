@@ -10,7 +10,7 @@ function Navbar() {
 
    //match selected link and add active attribute
   useEffect(() => {
-  const navlinks = document.querySelectorAll('a')
+  const navlinks = document.querySelectorAll('.nav-link')
 
   navlinks.forEach(link => {
 
